@@ -1,11 +1,3 @@
-
-from google.colab import drive
-drive.mount('/content/gdrive')
-
-path_to_csv = '/content/gdrive/MyDrive/Colab Notebooks/diabetes.csv'
-
-# pip install tensorflow
-
 import keras
 import pandas
 import tensorflow as tf
